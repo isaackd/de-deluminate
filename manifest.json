@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "De-Deluminate",
+  "version": "0.1.1",
+
+  "description": "Disables the Deluminate extension on YouTube when entering fullscreen.",
+
+  "content_scripts": [{
+     "matches": ["https://*.youtube.com/*"],
+     "js": ["content.js"]
+   }]
+}
